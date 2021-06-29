@@ -6,51 +6,65 @@
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
 
-  <style>
-    .actions
-    {
-     color: teal;
-     border: 1px teal solid;
-     padding: 5px 15px;
-     border-radius: 5px;
-     text-decoration: none
-    }
-  </style>
-</head>
+  <link rel="stylesheet" href="/my_styles.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head> 
 <body>
-  <div>
+<div class="container">
+<div class="row mb">
+  <div class="one-third">
     <a class ="actions" href="/rock">
       Play Rock
     </a>
   </div>
 
-  <div>
+  <div class="one-third">
     <a class ="actions" href="/paper">
       Play Paper
     </a>
   </div>
 
-  <div>
+  <div class="one-third">
     <a class ="actions" href="/scissors">
       Play Scissors
     </a>
   </div>
+</div>
 
-  <h2 style="color: green">
-    We played rock!
+<div class="row mb">
+<div class="player-card">
+  <h2 class="centered">
+    <em>We</em> <strong>played</strong> <a href="https://www.google.com" target="_blank">rock</a>!
   </h2>
+</div>
 
-  <h2 style="color: red">
+
+<div class="computer-card">
+  <h2 class="centered">
     They played paper!
   </h2>
+ </div>
+ </div>
 
-  <h2 style="color: red">
+<div class="row-center mb">
+  <div class="outcome-card">
+  <h2 style="color: black" class="centered">
     We lost!
   </h2>
+  </div>
+</div>
 
+<div class="row-center mb">
   <a href="/">
     Rules
   </a>
+</div>
+
+</div>
 </body>
 </html>
